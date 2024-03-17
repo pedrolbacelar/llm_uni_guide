@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+autotrain-advanced = "*"
+huggingface-hub = "*"
+ipywidgets = "*"
+torchvision = "*"
+auto-gptq = "*"
+optimum = "*"
+bitsandbytes = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
